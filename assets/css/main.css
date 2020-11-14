@@ -1853,7 +1853,10 @@
 	
 	.Center{
 		display: block;
-		max-width:80%; 
+		max-width: 80%;
+		max-height: auto; 
+		
+		
 	}
 }
 
