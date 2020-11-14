@@ -1854,7 +1854,7 @@
 	.Center{
 		display: block;
 		max-width: 80%;
-		height: auto;
+		max-height: 80%;
 		align-self: flex-start
 		
 		
