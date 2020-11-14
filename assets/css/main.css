@@ -1829,23 +1829,46 @@
 	}
 
 /* CV */
+
+.CV{
+	text-align: center
+}
+
+.Center{
+	display: block;
+}
+
+.ombre{
+	box-shadow: 0px 0px 50px black;
+}
+
+.bite{ 
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 480px){
+	
 	.CV{
 		text-align: center
 	}
 
 	.Center{
 		display: block;
+		max-width:80%; 
+		height:auto
 	}
 
 	.ombre{
 		box-shadow: 0px 0px 50px black;
 	}
 
-	.bite{
+	.bite{ 
 		display: flex;
 		justify-content: center;
+		
 	}
-
+}
 
 /* Box */
 
