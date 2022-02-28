@@ -1,113 +1,25 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Hugo LANNES</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="images/fulls/favLogo.png">
-		<script src="https://kit.fontawesome.com/96d408934f.js" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-
-		
-	</head>
-	<body>
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Header -->
-					<header id="header">
-						<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-						<h1> <strong><b>ALTERNANT Développeur </b></strong> au <a href="https://www.cnam-enjmin.fr/ecole-nationale-du-jeu-et-des-medias-interactifs-accueil-1126103.kjsp">CNAM ENJMIN</a><br />
-						</i> </h1>
-						<h1> .NET <i class="devicon-csharp-line"></i> </i>
-						</span></span>- Unity</b> <i class="fab fa-unity"></i>
-						- Python </i> <i class="fab fa-python"></i></h1>
-						<ul class="icons">
-							<li><a href="index.html" class="icon style2 fa-cubes"><span class="label">Renders</span></a></li>
-							<li><a href="CV.html" class="icon style2 fa-file"> <span class="label">Twitter</span></a></li>
-							<li><a href="https://github.com/HugoLannes" target="_blank" class="icon style2 fa-github"><span class="label">Code</span></a></li>
-							<li><a href="https://www.linkedin.com/in/hugo-lannes/" target="_blank" class="icon style2 fa-linkedin"><span class="label">LinkedIN</span></a></li>
-							<li><a href="Contact.html" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-					</header>
-
-				<!-- Main -->
-					<section id="main">
-
-						<!-- Thumbnails -->
-							<section class="thumbnails">
-								<div> <!-- Col1 -->
-									<a href="https://puu.sh/GV5rg/f17520b58f.gif">
-										<img src="images/thumbs/gif_thumbnail5.jpg" alt="" />
-										<h3>Game of Life <i class="devicon-csharp-line"></i></h3>
-									</a>
-									<a href="https://puu.sh/GV5pP/063f3b55dd.jpg">
-										<img src="images/thumbs/02.jpg" alt="" />
-										<h3>Photorealism</h3>
-									</a>
-									<a href="https://puu.sh/GV5pS/2e5f3e50a4.jpg">
-										<img src="images/thumbs/04.jpg" alt="" />
-										<h3>Architectural rendering</h3>
-									</a>
-									<a href="https://puu.sh/GV5r4/74ce7e90c3.gif">
-										<img src="images/thumbs/gif_thumbnail3.jpg" alt="" />
-										<h3>Animation</h3>
-									</a>
-								</div>
-								<div> <!-- Col2 -->
-									<a href="https://puu.sh/GVJWk/bef6abf2fc.png">
-										<img src="https://puu.sh/GVK5L/0dd31c2bfa.png" alt="" />
-										<h3>Basic Youtube downloader <i class="fab fa-python"></i></h3>
-									</a>
-									<a href="https://puu.sh/GV5pQ/93d185e47d.jpg">
-										<img src="images/thumbs/03.jpg" alt="" />
-										<h3>Architectural rendering #2</h3>
-									</a>
-									<a href="https://puu.sh/GV5r1/3c8ed754e4.gif">
-										<img src="images/thumbs/gif_thumbnail4.jpg" alt="" />
-										<h3>Animation #2</h3>
-									</a>
-									<a href="https://puu.sh/GV5r2/34841fd549.gif">
-										<img src="images/thumbs/gif_thumbnail2.jpg" alt="" />
-										<h3>Animation #4</h3>
-									</a>
-								</div>
-								<div> <!-- Col3 -->
-									<a href="https://puu.sh/GV5ph/bd3616d552.jpg">
-										<img src="images/thumbs/01.jpg" alt="" />
-										<h3>Low Poly</h3>
-									</a>
-									<a href="https://puu.sh/GV5r8/b5207c12cd.png">
-										<img src="images/thumbs/10.png"  alt="" />
-										<h3>Sci-fi rendering (NASA public assets)</h3>
-									</a>
-									<a href="https://puu.sh/GV5pU/573162609f.jpg">
-										<img src="images/thumbs/05.jpg" alt="" />
-										<h3>Architectural rendering #3</h3>
-									</a>
-									<a href="https://puu.sh/GV5pZ/c5e8d0446c.gif">
-										<img src="images/thumbs/gif_thumbnail1.jpg" alt="" />
-										<h3>Animation #3</h3>
-									</a>
-								</div>
-							</section>
-
-					</section>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p>&copy; HugoLannes. All rights reserved.</p>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | ProjetBazoom</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">ProjetBazoom</div>
+      </div>
+    </div>
+  </body>
 </html>
