@@ -3,11 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Melon</title>
+    <title>ProjetBazoom</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL.json", {onProgress: UnityProgress});
+    </script>
   </head>
   <body>
+<<<<<<< HEAD
     <div id="unityContainer" style="width: 100vw; height: 100vh;"></div>
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -103,5 +109,10 @@
       };
       document.body.appendChild(script);
     </script>
+=======
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 100vw; height: 100vh;"></div>
+    </div>
+>>>>>>> parent of 1d3263b (Update index.html)
   </body>
 </html>
